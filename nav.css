@@ -1,0 +1,18 @@
+.nav-list{
+    color: white;
+    box-shadow: 2px 2px 3px rgb(43, 43, 43);
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.nav-item a{
+    text-decoration:none;
+    color:white;
+}

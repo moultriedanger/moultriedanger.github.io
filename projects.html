@@ -4,6 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="project.css">
+
+    <nav class="navbar"></nav>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="index.html">About</a></li>
+        <li class="nav-item"><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="project-card">
+        <div class="project-element"><h1>Force-Directed Edge Bundling</h1></div>
+        <div class="project-element"><img src="project1.png" alt="" /></div>
+        <div class="project-element">
+          <p>
+            For this project, I studied and re-implemented the algorithm in the academic paper 
+            Force-Directed Edge Bundling for Graph Visualization to be applied in a novel way.<br>
+            The force directed edge bundling algorithm has only previously applied to static graphs.<br>
+            For this project the goal was to implement the Force-Directed Edge Bundling algorithm on dynamic 
+            information such as Flight Data.<br>
+            To show how we can dynamically apply the bundling, I created a visualization using HTML, CSS, 
+            and javascript where the summarization parameters can be adjusted.<br>
+            The visualization techniques implemented will be applied to future research in summarizing neural 
+            networks and FMRI data.
+          </p>
+        </div>
+    </div>    
+  </body>
 </html>

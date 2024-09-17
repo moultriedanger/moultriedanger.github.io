@@ -29,7 +29,6 @@ body{
     
 }
 
-
 .card-container{
     border: solid;
     border-color: red;
@@ -44,7 +43,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .card-element{
@@ -53,7 +51,6 @@ body{
     align-items: center;
     
     margin:5px;
-
 
 }
 
